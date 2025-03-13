@@ -1,0 +1,93 @@
+/* Custom header styling (Bootstrap only covers basic colors) */
+.custom-header {
+  background-color: #4267b2; /* Facebook-like blue */
+}
+
+/* Post card customizations */
+.post {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Card header adjustments */
+.post .card-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Avatar image size */
+.post .card-header img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Transition effect for like button */
+.like-btn {
+  transition: all 0.3s ease;
+}
+
+/* Like count styling */
+.like-count {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer text styling */
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Menu links styling */
+.list-group-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  color: #4267b2;
+}
+
+/* Responsive header text on small screens */
+@media (max-width: 768px) {
+  .custom-header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Hover effect for posts */
+.post:hover {
+  cursor: pointer;
+}
+
+/* Hover effect override for like button */
+.btn-outline-primary:hover {
+  background-color: #4267b2;
+  color: white;
+}
+
+/* Extra utility classes */
+.highlight {
+  background-color: #ffffcc;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
