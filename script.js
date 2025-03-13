@@ -68,16 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     footer.style.fontStyle = "normal";
   });
 
-  // === Navigation Links ===
-  // Select all nav links (JS selector 8)
-  const navLinks = document.querySelectorAll(".nav-link");
-  navLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      alert("Navigation to " + this.textContent + " is under construction.");
-    });
-  });
-
   // === Friend Request List Items ===
   // Change background on hover for friend list items (JS selector 9)
   const friendItems = document.querySelectorAll(".list-group-item");
